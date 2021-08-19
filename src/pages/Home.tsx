@@ -6,7 +6,7 @@ import { database } from '../services/firebase';
 // import { AuthContext } from '../contexts/AuthContext';
 import { useAuth } from '../hooks/useAuth';
 
-import illustrationImg from '../assets/illustration.svg';
+import illustrationImg from '../assets/fundoQuest.svg';
 import logoImg from '../assets/logo.svg';
 import googleIconImg from '../assets/google-icon.svg';
 
@@ -53,8 +53,8 @@ export function Home(){
         <div id="page-auth">
             <aside>
                 <img src={illustrationImg} alt="Ilustração simbolizando perguntas e respostas" />
-                <strong>Crie salas de Q&amp;A ao-vivo</strong>
-                <p>Tire as dúvidas da sua audiência em tempo-real</p>
+                <strong>Crie salas, Faça Perguntas,<br />Responda. Tudo ao-vivo!</strong>
+                <p>Tire as dúvidas da galera em tempo-real.</p>
             </aside>
             <main>
                 <div className="main-content">
